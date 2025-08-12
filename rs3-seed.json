@@ -6055,7 +6055,8 @@
       "id": "96918922-a2b2-4114-accf-614e1b5c89c8",
       "lockedBy": [],
       "unlocks": [
-        "8e8d143b-160d-4d98-afd2-ae453dc427fe"
+        "8e8d143b-160d-4d98-afd2-ae453dc427fe",
+        "d6065f60-e1c3-4dcc-9115-e1e976b0d032"
       ],
       "title": "invention: 85"
     },
@@ -6776,7 +6777,8 @@
       "lockedBy": [],
       "unlocks": [
         "faadf7a8-9399-4fec-af00-046f93a6ee50",
-        "07b81c7f-7077-434c-acfd-6aa63163c331"
+        "07b81c7f-7077-434c-acfd-6aa63163c331",
+        "a4fe5772-4d88-4569-b95c-13e8ae9432bf"
       ],
       "title": "archaeology: 68"
     },
@@ -6790,7 +6792,8 @@
         "10931d06-4c6e-427d-a19c-1285bc8e77ed"
       ],
       "unlocks": [
-        "d51b9f13-9769-4e6b-98e8-09e9a137467b"
+        "d51b9f13-9769-4e6b-98e8-09e9a137467b",
+        "a4fe5772-4d88-4569-b95c-13e8ae9432bf"
       ],
       "title": "Dagon Bye mystery: 1"
     },
@@ -7102,7 +7105,8 @@
         "9a191bac-b10d-4b1b-b3d6-70a06f6c02e4"
       ],
       "unlocks": [
-        "4f6f6745-51ed-4d53-bd4c-2a887c09e9c5"
+        "4f6f6745-51ed-4d53-bd4c-2a887c09e9c5",
+        "d6065f60-e1c3-4dcc-9115-e1e976b0d032"
       ],
       "title": "Howl's Floating Workshop mystery: 1"
     },
@@ -17045,6 +17049,26 @@
       ],
       "unlocks": [],
       "title": "FORT: Botanist's Workbench (Tier 3): 1"
+    },
+    {
+      "complete": false,
+      "id": "a4fe5772-4d88-4569-b95c-13e8ae9432bf",
+      "lockedBy": [
+        "6daaf331-d584-4d88-a022-26c991bb8bd6",
+        "faadf7a8-9399-4fec-af00-046f93a6ee50"
+      ],
+      "unlocks": [],
+      "title": "Ancient Summoning: 1"
+    },
+    {
+      "complete": false,
+      "id": "d6065f60-e1c3-4dcc-9115-e1e976b0d032",
+      "lockedBy": [
+        "96918922-a2b2-4114-accf-614e1b5c89c8",
+        "4140ff9e-9520-4af1-b9c1-d42e52675440"
+      ],
+      "unlocks": [],
+      "title": "Ancient Invention: 1"
     }
   ],
   "recipes": [
@@ -32505,6 +32529,38 @@
         {
           "recipeId": "6a074d66-2851-447f-9fcb-1621edeab5fc",
           "inputQuantity": 92
+        }
+      ],
+      "outputQuantity": 1
+    },
+    {
+      "id": "42d2436a-c8ac-4751-9b3e-832a66b2431e",
+      "title": "Ancient Summoning",
+      "consumable": false,
+      "inputs": [
+        {
+          "recipeId": "1754791466248",
+          "inputQuantity": 68
+        },
+        {
+          "recipeId": "03de3836-ef8b-4a0e-a87a-b5b9225469f2",
+          "inputQuantity": 1
+        }
+      ],
+      "outputQuantity": 1
+    },
+    {
+      "id": "1b44ea03-2efa-4745-8d50-60f92fc95738",
+      "title": "Ancient Invention",
+      "consumable": false,
+      "inputs": [
+        {
+          "recipeId": "377caf26-4f19-41fe-9534-820031e06f03",
+          "inputQuantity": 85
+        },
+        {
+          "recipeId": "85555481-f04a-4362-a0f5-af45130d379c",
+          "inputQuantity": 1
         }
       ],
       "outputQuantity": 1
